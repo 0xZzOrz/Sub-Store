@@ -1,8 +1,9 @@
 {
-  "name": "my-vercel-app",
-  "version": "1.0.0",
-  "main": "src/main.js",
-  "scripts": {
-    "start": "node src/main.js"
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node"
+    }
+  ]
 }
