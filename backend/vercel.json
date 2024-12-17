@@ -1,0 +1,8 @@
+{
+  "name": "my-vercel-app",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  }
+}
